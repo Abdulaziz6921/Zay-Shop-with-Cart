@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/img"
+      href="https://st4.depositphotos.com/1003549/20874/i/1600/depositphotos_208744448-stock-photo-letter-green-isolated-white-shadow.jpg"
+    />
+    <title>Zay Shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./app1.js"></script>
+    <script defer src="./signup.js"></script>
+  </head>
+  <body>
+    <!-- TopNav -->
+    <div class="top_nav">
+      <div class="contact">
+        <p><i class="fa-solid fa-envelope"></i> info@company.com</p>
+        <p><i class="fa-solid fa-phone-flip"></i> 010-020-0340</p>
+      </div>
+
+      <div class="social_media">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+    </div>
+
+    <!-- NavBar -->
+    <div class="NavBar">
+      <div class="logo">
+        <h1>Zay</h1>
+      </div>
+      <div class="links">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Shop</a></li>
+        <li><a href="">Contact</a></li>
+      </div>
+      <div class="addition">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i onclick="Open()" class="fa-solid fa-cart-shopping"
+          ><span id="count">0</span></i
+        >
+
+        <div class="signup">
+          <a href="./signup.html"> <i class="fa-solid fa-user"></i></a>
+        </div>
+        <div class="name"></div>
+        <button class="sign-out_btn" onclick="location.reload()">
+          Sign out
+        </button>
+      </div>
+      <!-- Js Fuctions  -->
+      <div class="rightSlider">
+        <i class="fa-solid fa-xmark" onclick="Close()"></i>
+        <h2 id="total">Total:0</h2>
+        <div class="items"></div>
+      </div>
+    </div>
+
+    <!-- Carousel  -->
+    <div class="carousel">
+      <div class="text">
+        <h1>Zay eCommerce</h1>
+        <p class="text1">Tiny and Perfect eCommerce Template</p>
+        <p class="text2">
+          Zay Shop is an eCommerce HTML5 CSS template with latest version of
+          Bootstrap 5 (beta 1). This template is 100% free provided by
+          <span>TemplateMo</span> website. Image credits go to
+          <span>Freepik Stories</span>,<span>Unsplash</span> and
+          <span>Icons 8</span>.
+        </p>
+      </div>
+
+      <img src="./banner_img_01.jpg" alt="" />
+    </div>
+
+    <!-- Categories of the Month  -->
+    <div class="product_info">
+      <div>
+        <p class="header">Categories of The Month</p>
+        <p class="text_info">
+          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+      <div class="products">
+        <!-- <div class="product">
+          <img src="./images/category_img_01.jpg" alt="" />
+          <h2 class="name_of_product">Watches</h2>
+          <button class="btn">Go Shop</button>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Featured Product  -->
+    <div class="product_info" style="background-color: #e9eef5; height: 1500px">
+      <div>
+        <p class="header">Featured Product</p>
+        <p class="text_info" style="padding: 0 400px">
+          Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
+      </div>
+
+      <div class="featured_products">
+        <!-- <div class="featured_product">
+          <img src="./images/category_img_01.jpg" alt="" />
+          <div class="star_and_price">
+            <div class="stars">
+              <img
+                src="./images/png-clipart-yellow-star-triangle-symbol-yellow-star-angle-triangle.png"
+                alt=""
+              />
+              <img
+                src="./images/png-clipart-yellow-star-triangle-symbol-yellow-star-angle-triangle.png"
+                alt=""
+              />
+              <img
+                src="./images/png-clipart-yellow-star-triangle-symbol-yellow-star-angle-triangle.png"
+                alt=""
+              />
+              <img
+                src="./images/png-clipart-yellow-star-triangle-symbol-yellow-star-angle-triangle.png"
+                alt=""
+              />
+              <img
+                src="./images/png-clipart-yellow-star-triangle-symbol-yellow-star-angle-triangle.png"
+                alt=""
+              />
+            </div>
+            <p class="price_of__featured_product">433</p>
+          </div>
+
+          <div class="description_of_featured_product">
+            <p class="name">Gym Weight</p>
+            <p class="text_info2">?</p>
+          </div>
+
+          <button class="btn2">Add to Cart</button>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Footer  -->
+    <footer>
+      <div class="main_footer">
+        <div class="address">
+          <h1>Zay Shop</h1>
+          <p style="margin-top: 35px">
+            <i class="fa-solid fa-location-dot"></i> 123 Consectetur at ligula
+            10660
+          </p>
+          <p><i class="fa-solid fa-phone-flip"></i> 010-020-0340</p>
+          <p><i class="fa-solid fa-envelope"></i> info@company.com</p>
+        </div>
+        <div class="product_links">
+          <a href="" class="top">Products</a>
+
+          <a href="">Luxury</a>
+          <a href="">Sport Wear</a>
+          <a href="">Men's Shoes</a>
+          <a href="">Women's Shoes</a>
+          <a href="">Popular Dress</a>
+          <a href="">Gym Accessories </a>
+          <a href="">Sport Shoes</a>
+        </div>
+        <div class="further_info">
+          <a href="" class="top_2">Further Info</a>
+
+          <a href="" class="top">Home</a>
+          <a href="" class="top">About Us</a>
+          <a href="" class="top">Shop Locations </a>
+          <a href="" class="top">FAQs</a>
+          <a href="" class="top">Contact</a>
+        </div>
+      </div>
+      <hr />
+      <div class="Media_and_Email">
+        <div class="soc-media">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+        <div class="Email">
+          <input type="text" placeholder="Email address" />
+          <button>Subscribe</button>
+        </div>
+      </div>
+      <div class="Copyright">
+        <div class="text_copyright">
+          <p>
+            Copyright © 2021 Company Name | Designed by
+            <a href=""> TemplateMo</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

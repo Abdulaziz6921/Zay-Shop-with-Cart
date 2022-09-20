@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(101, 226, 133);
+  background: linear-gradient(
+    122deg,
+    rgba(101, 226, 133, 1) 19%,
+    rgba(89, 171, 110, 1) 100%
+  );
+}
+.loginform {
+  width: 450px;
+  height: 600px;
+  background-color: #efefef;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.title {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.signupbtn {
+  width: 40%;
+  height: 40px;
+  margin-left: 10%;
+  border: none;
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(160, 159, 159);
+  color: #fff;
+  background: linear-gradient(
+    122deg,
+    rgba(101, 226, 133, 1) 19%,
+    rgba(89, 171, 110, 1) 100%
+  );
+}
+.signupbtn:hover {
+  background: linear-gradient(
+    122deg,
+    rgba(101, 226, 133, 1) 19%,
+    rgba(89, 171, 110, 1) 100%
+  );
+}
+.loginbtn {
+  width: 40%;
+  height: 40px;
+  background: transparent;
+  color: black;
+  font-size: 20px;
+  margin-top: 30px;
+  border: 1px solid rgb(160, 159, 159);
+  border-radius: 5px;
+}
+.loginbtn:hover {
+  color: #fff;
+  background: linear-gradient(
+    122deg,
+    rgba(101, 226, 133, 1) 19%,
+    rgba(89, 171, 110, 1) 100%
+  );
+}
+
+.logininput {
+  width: 80%;
+  height: 40px;
+  font-size: 17px;
+  margin-left: 10%;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  text-indent: 10px;
+}
+.forgot {
+  margin-left: 10%;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #59ab6e;
+}
+.forgot:hover {
+  text-decoration: underline;
+}
+.signupbtn2 {
+  width: 82%;
+  height: 40px;
+  background: rgb(101, 226, 133);
+  background: linear-gradient(
+    122deg,
+    rgba(101, 226, 133, 1) 19%,
+    rgba(89, 171, 110, 1) 100%
+  );
+  margin-left: 10%;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+
+.signuptext {
+  color: gray;
+  margin-top: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #59ab6e;
+}
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zay Shop Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+    <script defer src="./signup.js"></script>
+  </head>
+  <body>
+    <div class="loginform">
+      <h1 class="title">Sign Up</h1>
+      <button class="signupbtn">Sign up</button>
+      <a href="./login.html"><button class="loginbtn">Login</button></a>
+      <input
+        type="text"
+        placeholder="Name"
+        class="logininput"
+        required
+        id="input1"
+      />
+      <input
+        type="email"
+        placeholder="Email address"
+        class="logininput"
+        required
+        id="input2"
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        required
+        class="logininput"
+        id="input3"
+      />
+      <a href=""><p class="forgot">Forgot password?</p></a>
+      <button onclick="signUp()" class="signupbtn2">Sign Up</button>
+      <p class="signuptext">
+        Already have an account? <a href="./login.html">Login Now</a>
+      </p>
+    </div>
+  </body>
+</html>
